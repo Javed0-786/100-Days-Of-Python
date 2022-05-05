@@ -1,0 +1,5 @@
+print("Welcome to the tip calculator")
+bill = int(input("Enter the bill amount: "))
+men = int(input("Enter the number of person the tip is to be shared: "))
+per = int(input("Enter the percent 10, 12 or 15: "))
+print("Each person share is: ", (bill + per * bill / 100)/men)
