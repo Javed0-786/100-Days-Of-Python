@@ -10,4 +10,4 @@ while (choice == "yes"):
     auction[bid] = name
 
 val = sorted(auction.keys())
-print(auction.get(val[len(val)-1]))
+print("The winner of the auction is: ", auction.get(val[len(val)-1]))
