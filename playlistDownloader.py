@@ -17,8 +17,18 @@ import time
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------
 # the main program starts here
+time.sleep(5)
+print("mouse before download")
+pyautogui.moveTo(1162, 239, duration=0.2)
+for i in range(0, 50):
+    # print("mouse position for scroll")
+    # pyautogui.moveTo(1162, 366, duration=3)
+    # print(pyautogui.position())
+    pyautogui.scroll(-121)
+    time.sleep(0.5)
 
-pyautogui.click(1170, 1041)  # open chrome
+
+'''pyautogui.click(1170, 1041)  # open chrome
 time.sleep(0.5)
 
 
@@ -37,7 +47,7 @@ time.sleep(0.5)
 pyautogui.click(957, 749)  # to start the download
 
 
-for i in range(1, 10):
+for i in range(1, 30):
 
     pyautogui.click(84, 12)  # corner tab
     time.sleep(0.5)
@@ -63,3 +73,4 @@ for i in range(1, 10):
     pyautogui.click(957, 749)  # to start the download
 
 print("Downloaded Succesfully")
+'''
