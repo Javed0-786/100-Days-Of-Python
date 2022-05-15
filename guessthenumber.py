@@ -1,6 +1,7 @@
 import random
 
 num = random.randint(1, 100)
+print("number is: ", num)
 print("You have to guess a number between 1 and 100")
 check = 1
 ch = int(input("Enter 1 for easy level or 2 for difficult one: "))
