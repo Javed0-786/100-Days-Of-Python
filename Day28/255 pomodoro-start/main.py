@@ -78,7 +78,7 @@ def countdown(total_sec):
         count -= 1
 
     if count >= 0:
-        delay = window.after(10, countdown, total_sec - 1)
+        delay = window.after(1000, countdown, total_sec - 1)
     else:
         reps += 1
         start_timer()
