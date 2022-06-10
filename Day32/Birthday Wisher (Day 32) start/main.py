@@ -44,6 +44,6 @@ for content in contents:
         connection.starttls()
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs=records[i].email, msg=f"Subject:Happy Birthday\n\n{content}")
+                            to_addrs=records[i].email, msg=f"Subject:Happy Birthday\n\nto\n\n{records[i].Name}\n\n{content}")
 
     i += 1
