@@ -5,5 +5,5 @@
   
   <h3>You Can Run these codes on Replit easily</h3>
 <!--   [![Run on Repl.it](https://repl.it/badge/github/Javed0-786/undefined)](https://repl.it/github/Javed0-786/undefined) -->
-<img src="https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white">
-  <a href="https://repl.it/badge/github/Javed0-786/undefined)](https://repl.it/github/Javed0-786/undefined">Run On Replit</a>
+<a href="">
+  <a href="https://repl.it/badge/github/Javed0-786/undefined)](https://repl.it/github/Javed0-786/undefined"><img src="https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white"><br>Run On Replit</a>
