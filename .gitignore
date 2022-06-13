@@ -1,0 +1,5 @@
+/root/
+    .gitignore
+    /Day35/
+        apikey.txt
+        "Rain Alert"/main.py
