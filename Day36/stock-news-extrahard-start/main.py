@@ -6,7 +6,7 @@ STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
 my_email = "altaf9120573582@gmail.com"
-password = "swytbfqhyoodpblf"
+password = "************************"
 
 
 # Optional: Format the SMS message like this:
@@ -25,7 +25,7 @@ def get_news():
     # STEP 2: Use https://newsapi.org
     # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
     news_params = {
-        "apiKey": "aa8794b12ede4c65a66a9a5d8238ef12",
+        "apiKey": "************************",
         "q": COMPANY_NAME,
         "from": "2022-05-14",
         "sortBy": "published",
@@ -53,7 +53,7 @@ def get_news():
     print(message)
 
 
-alphaadvantage_api_key = "M0KZ7O0ZF4YU632B"
+alphaadvantage_api_key = "****************"
 parameter = {
     "apikey": alphaadvantage_api_key,
     "function": "TIME_SERIES_DAILY",
